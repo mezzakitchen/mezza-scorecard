@@ -310,7 +310,7 @@ async function main() {
   if (missing.length) {
     throw new Error(
       `Missing required environment variable(s): ${missing.join(", ")}. ` +
-      `Set them as REPOSITORY secrets on peternahas/mezza-scorecard ` +
+      `Set them as REPOSITORY secrets on mezzakitchen/mezza-scorecard ` +
       `(Settings -> Secrets and variables -> Actions -> New repository secret). ` +
       `Names are case-sensitive and must not have trailing whitespace. ` +
       `Note that environment secrets and organisation secrets are not the same thing ` +
@@ -606,7 +606,7 @@ function remedy(msg) {
   if (/invalid_grant/.test(msg)) return "Re-run google-oauth/Get Google Refresh Token.command and update the GOOGLE_REFRESH_TOKEN secret.";
   if (/invalid_client/.test(msg)) return "Re-copy both values from Cloud Console -> APIs & Services -> Credentials into the repo secrets.";
   if (/SERVICE_DISABLED|has not been used in project/.test(msg)) return "Cloud Console -> APIs & Services -> Library -> enable it, wait a minute, re-run. All four are needed: Account Management, Business Information, Google My Business (legacy, for reviews), Business Profile Performance.";
-  if (/Missing required environment variable/.test(msg)) return "Add the named secrets as REPOSITORY secrets: Settings -> Secrets and variables -> Actions -> New repository secret, on peternahas/mezza-scorecard.";
+  if (/Missing required environment variable/.test(msg)) return "Add the named secrets as REPOSITORY secrets: Settings -> Secrets and variables -> Actions -> New repository secret, on mezzakitchen/mezza-scorecard.";
   return "See scripts/GOOGLE-OAUTH-SETUP.md.";
 }
 

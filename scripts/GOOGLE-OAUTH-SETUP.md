@@ -104,7 +104,7 @@ often return no refresh token at all on a repeat authorisation.
 
 ## Step 4 — Add three repo secrets
 
-`github.com/peternahas/mezza-scorecard` → **Settings → Secrets and variables →
+`github.com/mezzakitchen/mezza-scorecard` → **Settings → Secrets and variables →
 Actions → New repository secret**:
 
 | Secret | Where it comes from |

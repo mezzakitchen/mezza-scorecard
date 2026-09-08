@@ -37,7 +37,13 @@ This is the only credential the Worker holds, so keep it narrow.
 
 github.com → Settings → Developer settings → **Fine-grained tokens** → Generate new
 
-- **Repository access:** Only select repositories → `peternahas/mezza-scorecard`
+- **Resource owner:** `mezzakitchen` — NOT the personal account. The repos live in
+  the org now, and a fine-grained token owned by the personal account cannot reach
+  org repositories at all, public ones included. The owner cannot be changed after
+  the token is created, so getting this wrong means starting over. The org requires
+  administrator approval, so the token sits inert until it is approved at
+  Organization settings → Personal access tokens → Pending requests.
+- **Repository access:** Only select repositories → `mezzakitchen/mezza-scorecard`
 - **Permissions:** `Actions` = Read and write, `Contents` = Read-only. Nothing else.
 - **Expiration:** this one wants to be long-lived — it is machinery, not a
   session. Whatever you pick, put a calendar reminder a week before it lapses.

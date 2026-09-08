@@ -13,6 +13,6 @@ crons = ["*/15 * * * *"]
 # variables, the same way GIVEX_SHARED_SECRET is set on the webhook
 # Worker:
 #   GITHUB_TOKEN         fine-grained PAT: Actions read/write,
-#                        Contents read, on peternahas/mezza-scorecard only
+#                        Contents read, on mezzakitchen/mezza-scorecard only
 #   CRON_SHARED_SECRET   any random string; guards GET / so nobody else
 #                        can trigger dispatches

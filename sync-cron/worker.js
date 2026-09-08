@@ -57,14 +57,14 @@
 //
 // ── SETUP ────────────────────────────────────────────────────────
 // Secret (Worker → Settings → Variables → Encrypt):
-//   GITHUB_TOKEN   fine-grained PAT, repo peternahas/mezza-scorecard,
+//   GITHUB_TOKEN   fine-grained PAT, repo mezzakitchen/mezza-scorecard,
 //                  permissions: Actions read/write, Contents read.
 //                  Nothing else. This is the only credential it holds.
 //
 // Cron trigger:  */15 * * * *
 // ─────────────────────────────────────────────────────────────────
 
-const OWNER = "peternahas";
+const OWNER = "mezzakitchen";
 const REPO = "mezza-scorecard";
 
 // Which workflows to keep alive, and how stale each feed may get
