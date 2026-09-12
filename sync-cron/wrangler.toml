@@ -2,6 +2,14 @@ name = "mezza-sync-cron"
 main = "worker.js"
 compatibility_date = "2026-08-01"
 
+# The Mezza business account, not Peter's personal one. Both are on the
+# same login, and wrangler refuses to guess -- it stops rather than
+# deploying a company Worker into a personal account, which is the right
+# instinct. This is where givex-webhook and the Pages dashboards live.
+#   peter.nahas@mezzarestaurant.com  87f9e24f5d4904a03e790efe05ebfae3
+#   Peter.nahas@gmail.com            a84f63eabf46c537cf16ca200528a4b7
+account_id = "87f9e24f5d4904a03e790efe05ebfae3"
+
 # Every 15 minutes. Unlike GitHub's scheduler, Cloudflare Cron Triggers
 # are not best-effort -- they fire. And because this checks the feed's
 # age before dispatching, a healthy pipeline costs one cheap API read
