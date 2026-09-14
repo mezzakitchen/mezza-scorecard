@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-13T15:04:03.329Z",
+ "generated_at": "2026-09-14T17:04:52.035Z",
  "source": "push-operations",
  "schema_version": 1,
  "window_days": 35,
@@ -26,7 +26,7 @@
  "totals_mismatches": [],
  "totals_mismatch_count": 0,
  "fallback_walk_used": 0,
- "rate_limit_retries": 8,
+ "rate_limit_retries": 9,
  "companies_seen": [
   {
    "id": 25154,
@@ -75,12 +75,6 @@
  ],
  "unmapped_companies": [],
  "days": [
-  {
-   "Location_Name": "Barrington",
-   "Date": "2026-08-09",
-   "Hours": 46.12,
-   "Cost": 811.4288
-  },
   {
    "Location_Name": "Barrington",
    "Date": "2026-08-10",
@@ -270,32 +264,32 @@
   {
    "Location_Name": "Barrington",
    "Date": "2026-09-10",
-   "Hours": 39.22,
-   "Cost": 725.94048
+   "Hours": 50.95,
+   "Cost": 930.27968
   },
   {
    "Location_Name": "Barrington",
    "Date": "2026-09-11",
-   "Hours": 58.89,
-   "Cost": 1080.02462
+   "Hours": 64.21,
+   "Cost": 1181.2161
   },
   {
    "Location_Name": "Barrington",
    "Date": "2026-09-12",
-   "Hours": 34.22,
-   "Cost": 601.9312
+   "Hours": 49.23,
+   "Cost": 864.24
   },
   {
    "Location_Name": "Barrington",
    "Date": "2026-09-13",
-   "Hours": 6.42,
-   "Cost": 113.5056
+   "Hours": 42.78,
+   "Cost": 744.0964
   },
   {
-   "Location_Name": "Burnside",
-   "Date": "2026-08-09",
-   "Hours": 27.54,
-   "Cost": 481.3224
+   "Location_Name": "Barrington",
+   "Date": "2026-09-14",
+   "Hours": 16.46,
+   "Cost": 319.72728
   },
   {
    "Location_Name": "Burnside",
@@ -504,14 +498,14 @@
   {
    "Location_Name": "Burnside",
    "Date": "2026-09-13",
-   "Hours": 6.26,
-   "Cost": 109.6632
+   "Hours": 33.72,
+   "Cost": 588.9936
   },
   {
-   "Location_Name": "Charlottetown",
-   "Date": "2026-08-09",
-   "Hours": 32.54,
-   "Cost": 580.9544
+   "Location_Name": "Burnside",
+   "Date": "2026-09-14",
+   "Hours": 22.67,
+   "Cost": 431.652
   },
   {
    "Location_Name": "Charlottetown",
@@ -684,50 +678,50 @@
   {
    "Location_Name": "Charlottetown",
    "Date": "2026-09-07",
-   "Hours": 57.31,
-   "Cost": 1310.3415
+   "Hours": 59.33,
+   "Cost": 1373.3655
   },
   {
    "Location_Name": "Charlottetown",
    "Date": "2026-09-08",
-   "Hours": 21.88,
-   "Cost": 408.2104
+   "Hours": 25.18,
+   "Cost": 467.8544
   },
   {
    "Location_Name": "Charlottetown",
    "Date": "2026-09-09",
-   "Hours": 26.4,
-   "Cost": 495.7264
+   "Hours": 28.07,
+   "Cost": 525.2104
   },
   {
    "Location_Name": "Charlottetown",
    "Date": "2026-09-10",
-   "Hours": 26.39,
-   "Cost": 484.952
+   "Hours": 29.38,
+   "Cost": 544.544
   },
   {
    "Location_Name": "Charlottetown",
    "Date": "2026-09-11",
-   "Hours": 29.49,
-   "Cost": 555.3496
+   "Hours": 31.42,
+   "Cost": 592.4256
   },
   {
    "Location_Name": "Charlottetown",
    "Date": "2026-09-12",
-   "Hours": 23.05,
-   "Cost": 417.5288
+   "Hours": 26.85,
+   "Cost": 486.0024
   },
   {
    "Location_Name": "Charlottetown",
    "Date": "2026-09-13",
-   "Hours": 5.25,
-   "Cost": 95.4224
+   "Hours": 27.17,
+   "Cost": 512.3768
   },
   {
-   "Location_Name": "Clayton Park",
-   "Date": "2026-08-09",
-   "Hours": 56.404285714286,
-   "Cost": 1079.6340285714
+   "Location_Name": "Charlottetown",
+   "Date": "2026-09-14",
+   "Hours": 15.05,
+   "Cost": 291.0648
   },
   {
    "Location_Name": "Clayton Park",
@@ -936,14 +930,14 @@
   {
    "Location_Name": "Clayton Park",
    "Date": "2026-09-13",
-   "Hours": 16.084285714286,
-   "Cost": 346.62762857143
+   "Hours": 56.954285714286,
+   "Cost": 1084.4676285714
   },
   {
-   "Location_Name": "Halifax Shopping Centre",
-   "Date": "2026-08-09",
-   "Hours": 29.1942857142857,
-   "Cost": 568.7368
+   "Location_Name": "Clayton Park",
+   "Date": "2026-09-14",
+   "Hours": 35.204285714286,
+   "Cost": 714.33222857143
   },
   {
    "Location_Name": "Halifax Shopping Centre",
@@ -1140,26 +1134,26 @@
   {
    "Location_Name": "Halifax Shopping Centre",
    "Date": "2026-09-11",
-   "Hours": 55.5242857142857,
-   "Cost": 1046.9808
+   "Hours": 56.9942857142857,
+   "Cost": 1074.3328000000001
   },
   {
    "Location_Name": "Halifax Shopping Centre",
    "Date": "2026-09-12",
-   "Hours": 55.6542857142857,
-   "Cost": 1091.472
+   "Hours": 64.7542857142857,
+   "Cost": 1257.8616000000002
   },
   {
    "Location_Name": "Halifax Shopping Centre",
    "Date": "2026-09-13",
-   "Hours": 7.484285714285701,
-   "Cost": 181.4488
+   "Hours": 33.1342857142857,
+   "Cost": 669.8976
   },
   {
-   "Location_Name": "Herring Cove (Spryfield)",
-   "Date": "2026-08-09",
-   "Hours": 26.93,
-   "Cost": 549.1616
+   "Location_Name": "Halifax Shopping Centre",
+   "Date": "2026-09-14",
+   "Hours": 28.474285714285703,
+   "Cost": 566.376
   },
   {
    "Location_Name": "Herring Cove (Spryfield)",
@@ -1368,14 +1362,14 @@
   {
    "Location_Name": "Herring Cove (Spryfield)",
    "Date": "2026-09-13",
-   "Hours": 3.76,
-   "Cost": 77.3808
+   "Hours": 30.5,
+   "Cost": 597.8432
   },
   {
-   "Location_Name": "Lower Sackville",
-   "Date": "2026-08-09",
-   "Hours": 30.589999999999996,
-   "Cost": 542.5368
+   "Location_Name": "Herring Cove (Spryfield)",
+   "Date": "2026-09-14",
+   "Hours": 16.89,
+   "Cost": 362.804
   },
   {
    "Location_Name": "Lower Sackville",
@@ -1578,14 +1572,20 @@
   {
    "Location_Name": "Lower Sackville",
    "Date": "2026-09-12",
-   "Hours": 29.11,
-   "Cost": 516.0064
+   "Hours": 31.450000000000003,
+   "Cost": 557.6895999999999
   },
   {
    "Location_Name": "Lower Sackville",
    "Date": "2026-09-13",
-   "Hours": 5.7,
-   "Cost": 99.3096
+   "Hours": 29.09,
+   "Cost": 506.7504
+  },
+  {
+   "Location_Name": "Lower Sackville",
+   "Date": "2026-09-14",
+   "Hours": 17.43,
+   "Cost": 331.76
   },
   {
    "Location_Name": "Scotia Square",
@@ -1766,6 +1766,12 @@
    "Date": "2026-09-12",
    "Hours": 20.4,
    "Cost": 365.4352
+  },
+  {
+   "Location_Name": "Scotia Square",
+   "Date": "2026-09-14",
+   "Hours": 19.58,
+   "Cost": 365.432
   }
  ],
  "labour_targets": {
